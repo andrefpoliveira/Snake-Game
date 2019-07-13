@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Snake {
 	public int sizeHead = 15;
 	public int sizeSnake = 1;
-	public int food;
 
 	public int[] x;
 	public int[] y;
@@ -32,8 +31,6 @@ public class Snake {
 		x[0] = posX;
 		y[0] = posY;
 		
-		food = 0;
-
 	}
 
 	public void moveSidewais(int distance) {
