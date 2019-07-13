@@ -112,7 +112,6 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
 				f = new Food();
 			}
 			gotFood = true;
-			s.food++;
 			s.keepCoords();
 		}
 		
